@@ -47,7 +47,7 @@ sudo apt-get install r-base
 ```
 Start R then run the following command to install jsonlite.
 ```
-install.packages("ggplot2")
+install.packages("jsonlite")
 ```
 
 ###IBM System G Graph Tools
