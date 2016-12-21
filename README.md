@@ -23,9 +23,13 @@ The dataset contains the following:
 
 ##Repo Overview
 Detailed descriptions for items in each folder are included as README.md files within the folder.
+
 Vertex and edge files for the yelpPop and yelpPitt graphs are in the [sampleGraph folder](https://github.com/Aneapiy/graph_visualization_Yelp/tree/master/sampleGraph).
+
 Python and R scripts used for processing raw JSON files from the Yelp Academic Dataset
 are stored in the [dataProcScripts folder](https://github.com/Aneapiy/graph_visualization_Yelp/tree/master/dataProcScripts).
+
+GShell scripts used for creating graph stores are in the [graphCreateScripts folder](https://github.com/Aneapiy/graph_visualization_Yelp/tree/master/graphCreateScripts).
 
 ##Setup Instructions
 
