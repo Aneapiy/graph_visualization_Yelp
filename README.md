@@ -38,3 +38,17 @@ on other Linux distros.
 ###IBM System G Graph Tools
 IBM System G Graph Tools can be downloaded from [this link](http://systemg.research.ibm.com/download.html).
 Follow the instructions from [this link](http://systemg.research.ibm.com/1.5.0/setup.html) to set up the software.
+
+To start the graph store and visualizer, navigate to the System G folder and run the following commands.
+
+Start UI server:
+```
+./bin/startuiserver.sh&
+```
+Start graph database:
+```
+./bin/runggsserver.sh
+Type ctrl z
+bg
+disown
+```
