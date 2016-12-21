@@ -34,6 +34,21 @@ Set up instructions are applicable to Ubuntu 14.04 only. The set up may require 
 on other Linux distros.
 
 ###Language requirements
+This project requires:
+- Python 2.7.6 or higher
+- R version 3.3.2 or higher with the jsonlite library installed
+
+The scripts may run with older Python or R versions, but I don't guarantee that it will.
+
+To install R run the following commands.
+```
+sudo apt-get update
+sudo apt-get install r-base
+```
+Start R then run the following command to install jsonlite.
+```
+install.packages("ggplot2")
+```
 
 ###IBM System G Graph Tools
 IBM System G Graph Tools can be downloaded from [this link](http://systemg.research.ibm.com/download.html).
