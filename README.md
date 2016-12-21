@@ -22,9 +22,9 @@ The dataset contains the following:
 - 10 Cities
 
 ##Repo Overview
-Vertex and edge files for the yelpPop and yelpPitt graphs are in the [sampleGraph folder](https://github.com/Aneapiy/graph_visualization_Yelp/sampleGraph).
+Vertex and edge files for the yelpPop and yelpPitt graphs are in the [sampleGraph folder](https://github.com/Aneapiy/graph_visualization_Yelp/tree/master/sampleGraph).
 Python and R scripts used for processing raw JSON files from the Yelp Academic Dataset
-are stored in the [dataProcScripts folder](https://github.com/Aneapiy/graph_visualization_Yelp/dataProcScripts).
+are stored in the [dataProcScripts folder](https://github.com/Aneapiy/tree/master/graph_visualization_Yelp/dataProcScripts).
 
 ##Setup Instructions
 
