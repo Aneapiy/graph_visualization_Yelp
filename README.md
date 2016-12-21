@@ -28,7 +28,10 @@ Vertex and edge files for the yelpPop and yelpPitt graphs are in the sampleGraph
 
 ###Equipment
 All demostrations for this project were hosted in Ubuntu 14.04 on an Amazon AWS EC2 cloud instance. 
-The m4.large EC2 instance has 2 Intel Xeon 2.40 GHz E5-2676 processors, 8 GB of RAM, and 100GB of SSD storage.
+The m4.large EC2 instance has:
+- 2 Intel Xeon 2.40 GHz E5-2676 processors
+- 8 GB of RAM
+- 100GB of SSD storage.
 
 Set up instructions are applicable to Ubuntu 14.04 only. The set up may require slight modifications to work
 on other Linux distros.
