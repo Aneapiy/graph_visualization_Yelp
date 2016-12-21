@@ -7,7 +7,8 @@ This folder contains vertex and edge files for the sample Pittsburgh graph and t
 The yelpPitt graph contains businesses in Pittsburgh with >= 100 reviews and users connected to these businesses.
 - pittEgoNetE.csv contains all edges for the Pittsburgh sample graph.
 - pittEgoNetV.csv contains both user and business vertices for the Pittsburgh sample graph.
-Network graph size:
+
+yelpPitt graph size:
 - Nodes: 8,331
 - Edges: 19,082
 
@@ -15,6 +16,7 @@ Network graph size:
 The graph contains businesses with >= 1000 reviews and users connected to these businesses.
 - pittEgoNetE.csv contains all edges for the Pittsburgh sample graph.
 - pittEgoNetV.csv contains both user and business vertices for the Pittsburgh sample graph.
-Network graph size:
+
+yelpPop graph size:
 - Nodes: 8,331
 - Edges: 19,082
