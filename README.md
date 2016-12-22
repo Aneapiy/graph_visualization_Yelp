@@ -7,8 +7,7 @@ Group: 201612-95
 Technical report and video are available at [this link](http://www.ee.columbia.edu/~cylin/course/bigdata/projects/). 
 Search for group 201612-95 in the index on the left of the page.
 
-Check out the technical report file for a detailed explanation of this project.
-> 201612-95_nh2518_technicalReport.pdf
+Check out the technical report file (201612-95_nh2518_technicalReport.pdf) for a detailed explanation of this project.
 
 ##Abstract
 Yelp users traditionally interact with business listings by looking at star ratings and reading other user’s reviews. However, manually scanning through pages of ratings and reviews isn’t scalable. A city like Pittsburgh can contain over thousands of business listings and tens of thousands of reviews. I propose a network graph visualization of the Yelp social recommender network that uses PageRank relative node size to illustrate business importance and influence. To demonstrate the benefits of graph visualization, I created sample graphs using data from the Yelp Academic Dataset Round 8. 
