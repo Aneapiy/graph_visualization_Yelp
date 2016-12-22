@@ -4,7 +4,11 @@ Columbia University EECS E6893 Big Data Analytics Fall 2016 Final Project
 
 Group: 201612-95
 
-Technical report and video are available at [this link](http://www.ee.columbia.edu/~cylin/course/bigdata/projects/).
+Technical report and video are available at [this link](http://www.ee.columbia.edu/~cylin/course/bigdata/projects/). 
+Search for group 201612-95 in the index on the left of the page.
+
+Check out the technical report file for a detailed explanation of this project.
+> 201612-95_nh2518_technicalReport.pdf
 
 ##Abstract
 Yelp users traditionally interact with business listings by looking at star ratings and reading other user’s reviews. However, manually scanning through pages of ratings and reviews isn’t scalable. A city like Pittsburgh can contain over thousands of business listings and tens of thousands of reviews. I propose a network graph visualization of the Yelp social recommender network that uses PageRank relative node size to illustrate business importance and influence. To demonstrate the benefits of graph visualization, I created sample graphs using data from the Yelp Academic Dataset Round 8. 
@@ -30,6 +34,17 @@ Python and R scripts used for processing raw JSON files from the Yelp Academic D
 are stored in the [dataProcScripts folder](https://github.com/Aneapiy/graph_visualization_Yelp/tree/master/dataProcScripts).
 
 GShell scripts used for creating graph stores are in the [graphCreateScripts folder](https://github.com/Aneapiy/graph_visualization_Yelp/tree/master/graphCreateScripts).
+
+##TL;DR Instructions
+1. Follow the setup instructions below.
+2. Get the [Yelp Academic Dataset](https://www.yelp.com/dataset_challenge).
+3. Run the scripts in the dataProcScripts folder to turn raw JSON files from Yelp into vertex and edge CSV files for
+loading into IBM System Native Graph Store.
+4. Run the gShell scripts in the graphCreateScripts folder to create subgraphs for the visualizer.
+5. Open up a browser and go to the visualizer at http://localhost:9080/systemg/visualizer/ 
+(if running on a cloud server, replace "localhost" with the server's public DNS).
+6. Check out the visualizer_settings1.PNG in the screenShots folder to tweak the visualization.
+7. Have fun!
 
 ##Setup Instructions
 
